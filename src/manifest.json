@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Qitta Color",
+  "short_name": "QC",
+  "version": "1.0.1",
+  "description": "Qiitaというサイトのヘッダの色等をグレーに変更します",
+  "content_scripts": [{
+    "matches": ["https://qiita.com/*"],
+    "js": [
+      "content.js"
+    ]
+  }],
+  "icons" : {
+    "128": "icon.png"
+  }
+  
+}
